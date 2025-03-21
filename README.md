@@ -1,18 +1,28 @@
-# Sorting Algorithm Visualizer (Java Swing) 🎮🔍 
-<br></br>
-*Visualize sorting algorithms with Java Swing and DSA concepts.*
-<br>
-📌 Description  
-  "A desktop application built with Java Swing to visualize sorting algorithms (Bubble Sort, Merge Sort, Quick Sort, etc.). Adjust array size, speed, and data distribution to 
-   see how algorithms work step-by-step."
-   <br>
-✨ Features 
-- Interactive GUI with controls for array size, speed, and randomization.  
-- Real-time visualization of swaps, comparisons, and pivot elements.  
-- Support for multiple algorithms (Bubble, Insertion, Merge, Quick, etc.).  
-- Threading to prevent GUI freezing during sorting.
-<br>
-🛠 Tech Stack*  
-- *Language*: Java  
-- *GUI Framework*: Java Swing  
-- *Algorithms*: Implemented Bubble Sort, Quick Sort, Merge Sort, etc.  
+# Sorting Algorithm Visualizer (Java Swing) 🎮📊  
+Visualize 6+ sorting algorithms in real-time with interactive controls and animations  
+
+## 📌 Description  
+An interactive Java Swing application that visualizes fundamental sorting algorithms using Data Structures and Algorithms principles. Features:  
+- Real-time animations with color-coded comparisons/swaps  
+- Adjustable speed (1x to 100x) and dataset size (10-150 elements)  
+- Thread-safe visualization using AtomicBoolean for smooth operation  
+- Side-by-step execution of 6+ algorithms (Bubble, Merge, Quick, Heap, etc.)  
+
+## ✨ Key Features  
+- *Multi-Algorithm Support*:  
+  - O(n²): Bubble, Selection, Insertion Sort  
+  - O(n log n): Merge, Quick, Heap Sort  
+- *Interactive Controls*:  
+  - Dynamic speed adjustment during sorting  
+  - Real-time array size modification  
+  - Start/Stop/Restart functionality  
+- *Visual Enhancements*:  
+  - Responsive bar rendering with dynamic width  
+  - Smooth animations with configurable delays  
+  - Thread-safe UI updates via SwingUtilities  
+
+## 🛠 Tech Stack  
+- *Core Java*: Multithreading, AtomicBoolean, Event Listeners  
+- *Swing Components*: JSlider, JComboBox, Custom JPanel rendering  
+- *Algorithms*: Full implementations of 6 sorting techniques  
+- *Concurrency*: Worker threads for non-blocking UI  
