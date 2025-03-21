@@ -1,5 +1,5 @@
 # Sorting Algorithm Visualizer (Java Swing) 🎮🔍 
-<br>
+<br></br>
 *Visualize sorting algorithms with Java Swing and DSA concepts.*
 <br>
 📌 Description  
